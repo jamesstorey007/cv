@@ -1,0 +1,131 @@
+body {
+  color: #888888;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  color: #7882A4;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', serif;
+  line-height: 2;
+}
+
+h2 {
+  color: #7882A4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 20px;
+}
+
+h3 {
+  color: #5B5656;
+  font-family: 'Montserrat', sans-serif;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  margin: 70px auto 70px auto;
+  width: 5%;
+}
+
+.top-container {
+  background-color: #D1D1D1;
+  position: relative;
+  padding-top: 100px;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.contact-message {
+width: 40%;
+margin: 40px auto 60px;
+}
+.blueberrycheesecake {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.kali-linux {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+.middle-container {
+margin: 100px 0;
+}
+
+.bottom-container {
+background-color: #D1D1D1;
+padding: 50px 0 20px;
+}
+a {
+  color: #1B1717;
+  padding: 0 30px 0 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #DA0037;
+}
+
+p {
+  line-height: 2;
+}
+
+.btn {
+  background: #ccc6cc;
+  background-image: -webkit-linear-gradient(top, #ccc6cc, #b6b2db);
+  background-image: -moz-linear-gradient(top, #ccc6cc, #b6b2db);
+  background-image: -ms-linear-gradient(top, #ccc6cc, #b6b2db);
+  background-image: -o-linear-gradient(top, #ccc6cc, #b6b2db);
+  background-image: linear-gradient(to bottom, #ccc6cc, #b6b2db);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f5b3bc;
+  background-image: -webkit-linear-gradient(top, #f5b3bc, #f00846);
+  background-image: -moz-linear-gradient(top, #f5b3bc, #f00846);
+  background-image: -ms-linear-gradient(top, #f5b3bc, #f00846);
+  background-image: -o-linear-gradient(top, #f5b3bc, #f00846);
+  background-image: linear-gradient(to bottom, #f5b3bc, #f00846);
+  text-decoration: none;
+}
+.copyright {
+  color: #7882A4;
+  font-size: 0.75REM;
+  padding: 20PX 0;
+}
